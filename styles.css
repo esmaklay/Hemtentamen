@@ -38,5 +38,16 @@ header{
     border-width: 2px;
 }
 
+/* List page  */
 
+.list-group-item{
+    display: list-item;
+   
+}
 
+.list-item{
+ 
+}
+{
+    list-style-type: upper-roman !important;
+}
