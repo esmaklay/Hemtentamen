@@ -1,0 +1,16 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html{
+    background-color:#FFEBCD;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* HEADER CSS */
+
+header{
+    background-color: #DEB887;
+}
