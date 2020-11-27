@@ -46,8 +46,42 @@ header{
 }
 
 .list-item{
- 
-}
-{
     list-style-type: upper-roman !important;
 }
+
+/* -- Graphica element -- */
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    animation-name: brownsquare;
+    animation-duration: 6s;
+    transition: 4s;
+}
+.animation:hover {
+    width: 300px;
+    height: 300px;
+  }
+@keyframes brownsquare {
+    from {background-color: chocolate;}
+    to {background-color: beige;}
+  }
+  .myList > ul > li > ul {
+  display: none ;
+}
+
+.myList > ul > li:hover >ul{
+display: block;
+}
+.myTrasition{
+width: 100px;
+height: 100px;
+background: beige;
+transition: width 2s, height 4s;
+}
+.myTrasition:hover{
+width: 300px;  
+height: 150px;
+background-color: chocolate;
+}
+
